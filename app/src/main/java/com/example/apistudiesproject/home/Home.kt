@@ -65,6 +65,7 @@ fun MovieImageCard(movieModel: MovieModel) {
                         .padding(4.dp)
                 ) {
                     Text(text = "Movie Name:  ${movieModel.name}", color = Color.Black)
+                    Text(text = "edited")
                 }
             }
         }
