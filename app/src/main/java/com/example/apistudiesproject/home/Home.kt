@@ -65,6 +65,7 @@ fun MovieImageCard(movieModel: MovieModel) {
                         .padding(4.dp)
                 ) {
                     Text(text = "Movie Name:  ${movieModel.name}", color = Color.Black)
+                    Text(text = "test bu mesaj merge alınacak daha sonra merge geri alma işlemi uygulanacaktır")
                 }
             }
         }
